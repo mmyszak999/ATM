@@ -41,6 +41,7 @@ def pin_with_zeros(_pin):
             return False
     return True
 
+
 class Account:
     def __init__(self, balance=500, _pin=None, max_debit=-150):
         self.balance = balance
@@ -67,7 +68,7 @@ class Account:
                 chances -= 1
                 print("\nPIN can't be set! Please follow the rules of setting the PIN.\n")
                 print(f"{chances} attempts left.\n")
-        return "You have no attempts left!\n"
+        return exit(0)
 
     @property
     def show_balance(self):
