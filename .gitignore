@@ -60,3 +60,4 @@ target/
 # .idea directory
 workspace.xml
 tasks.xml
+.idea
